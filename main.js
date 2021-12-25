@@ -46,11 +46,13 @@ window.onscroll = function() {
       }
       prevScrollpos = currentScrollPos;
     
-      if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
-        mybutton.style.display = "block";
-      } else {
-        mybutton.style.display = "none";
-      }
+      
+  }
+
+  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
   }
 }
 
