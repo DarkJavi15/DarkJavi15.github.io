@@ -71,7 +71,7 @@ nav{
   background-size: cover;*/
 }
 
-main{
+.header{
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(img/comprimidas/33-min.jpg);
   background-attachment: fixed;
   background-position: center;
