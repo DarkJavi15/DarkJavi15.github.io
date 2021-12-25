@@ -157,18 +157,21 @@ h3{
 }
 
 .bloqueCuatro{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/comprimidas/laura_2-min.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .bloqueCinco{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/comprimidas/gomzalo3-min.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .bloqueSeis{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/comprimidas/Amor_liquido_1_10-min.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
