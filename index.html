@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mcabo96</title>
+
+    <script src="main.js" defer></script>
+
+    <meta name="keywords" content="Fotografía, Fotografia, photography, photographer">
+    <meta name="description" content="Descripcion de la web">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="prefabricado.css">
+    <!--<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Poppins:ital,wght@0,400;1,700&display=swap" rel="stylesheet">-->
+    <link href="iconos/fuego.png" rel="icon">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Playfair+Display:ital@1&family=Poppins:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <header>
+        <nav id = "navbar">
+            <section  class="nav">
+                <div class="logo">
+                    <img src="iconos/fuego.png">
+                </div>
+                <div class="enlacesHeader">
+                    <!--<a href="#">Enlace</a>
+                    <a href="#">Enlace</a>
+                    <a href="#">Enlace</a>
+                    <a href="#">Enlace</a>
+                    <a href="#">Enlace</a>-->
+                    <a href="#"><img src="iconos\ig-icon2.svg" alt="Icono instagram" /></a>
+                </div>
+                <div id = "hamburguer" class="hamburguer" onclick="myFunction()">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </section>
+        </nav>
+        <div id="mySidenav" class="sidenav">
+            <a onclick="myFunction2('top')">Inicio</a>
+            <a onclick="myFunction2('work')">Sobre mí</a>
+            <a onclick="myFunction2('Bodas')">Categorías</a>
+            <a onclick="myFunction2()" href="#">Contact</a>
+        </div>
+    </header>
+    <main>
+        <i onclick="topFunction()" id="myBtn" class="arrowup"></i>
+        <section class="header">
+            <article>
+                <h1 id="titulo">mcabo96</h1>
+                <h3 id="subtitulo">Photographer</h3>
+            </article>
+        </section>
+        <section id = "work" class="work">
+            <a href=""><div class="contenedor bloqueUno"><p>Retrato</p></div></a>
+            <a href=""><div class="contenedor bloqueDos"><p>Paisaje</p></div></a>
+            <a href=""><div class="contenedor bloqueTres"><p>Book modelos</p></div></a>
+            <a id = "Bodas" href=""><div class="contenedor bloqueCuatro"><p>Bodas</p></div></a>
+            <a href=""><div class="contenedor bloqueCinco"><p>Rodajes</p></div></a>
+            <a href=""><div class="contenedor bloqueSeis"><p>Conciertos</p></div></a>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <a href="#"><img src="iconos\gmail-icon.svg" alt="Icono gmail." /></a>
+            <a href="#"><img src="iconos\ig-icon.png" alt="Icono instagram" /></a>
+            <a href="#"><img src="iconos\tiktok-icon.png" alt="Icono tiktok" /></a>
+        </div>
+    </footer>
+</body>
+
+</html>
