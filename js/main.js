@@ -26,7 +26,7 @@ function myFunction2(x) {
     }
     console.log(x)
     console.log("#"+x)
-    window.location.href = "#"+x;
+    window.location.href = x;
 }
 
 
@@ -42,7 +42,7 @@ window.onscroll = function() {
     if (prevScrollpos > currentScrollPos) {
         document.getElementById("navbar").style.top = "0";
       } else {
-        document.getElementById("navbar").style.top = "-60px";
+        document.getElementById("navbar").style.top = "-65px";
       }
       prevScrollpos = currentScrollPos;
     
