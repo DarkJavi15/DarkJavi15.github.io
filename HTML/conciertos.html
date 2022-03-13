@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Retratos</title>
+    <title>Conciertos</title>
 
     <script src="../js/main.js" defer></script>
     <script src="../js/visualizadorFotos.js" defer></script>
@@ -12,10 +12,11 @@
     <meta name="keywords" content="Fotografía, Fotografia, photography, photographer, retratos">
     <meta name="description" content="Descripcion de la web">
     <link rel="stylesheet" href="../CSS/estilos.css">
+    <link rel="stylesheet" href="../CSS/estilosConciertos.css">
     <link rel="stylesheet" href="../CSS/prefabricado.css">
     <link rel="stylesheet" href="../CSS/mediaquerys.css">
     
-    <link href="../iconos/fuego.png" rel="icon">
+    <link href="../iconos/mcabophotod.jpg" rel="icon">
     
     <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Playfair+Display:ital@1&family=Poppins:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
 
@@ -25,15 +26,7 @@
         <nav id = "navbar">
             <section  class="nav">
                 <div class="logo">
-                    <img src="iconos/fuego.png">
-                </div>
-                <div class="enlacesHeader">
-                    <!--<a href="#">Enlace</a>
-                    <a href="#">Enlace</a>
-                    <a href="#">Enlace</a>
-                    <a href="#">Enlace</a>
-                    <a href="#">Enlace</a>-->
-                    <a href="#"><img src="iconos\ig-icon2.svg" alt="Icono instagram" /></a>
+                    <a href="../index.html"><img src="../iconos/mcabophoto2.png"></a>
                 </div>
                 <div id = "hamburguer" class="hamburguer" onclick="myFunction()">
                     <div class="bar1"></div>
@@ -43,11 +36,94 @@
             </section>
         </nav>
         <div id="mySidenav" class="sidenav">
-            <a onclick="myFunction2('top')">Inicio</a>
+            <a onclick="myFunction2('../index.html')">Inicio</a>
             <a onclick="myFunction2('work')">Sobre mí</a>
             <a onclick="myFunction2('Bodas')">Categorías</a>
             <a onclick="myFunction2()" href="#">Contact</a>
         </div>
     </header>
+    <main>
+        <i onclick="topFunction()" id="myBtn" class="arrowup"></i>
+        <section class="header-retrato">
+            <div class="cabecera-retrato">
+                <p>Conciertos</p>
+            </div>
+        </section>
+        <section class="gallery">
+            <figure class="gallery_picture">
+                <img src="../img/comprimidas/Amor_liquido_1_10-min.jpg" class="gallery_img" loading="lazy">
+            </figure>
+
+            <figure class="gallery_picture">
+                <img src="../img/comprimidas/Amor_liquido_1_10-min.jpg" class="gallery_img" loading="lazy">
+            </figure>
+
+            <figure class="gallery_picture">
+                <img src="../img/comprimidas/Amor_liquido_1_10-min.jpg" class="gallery_img" loading="lazy">
+            </figure>
+
+
+            <figure class="gallery_picture">
+                <img src="../img/comprimidas/teo1-min.jpg" class="gallery_img" loading="lazy">
+            </figure>
+
+            <figure class="gallery_picture">
+                <img src="../img/comprimidas/gomzalo3-min.jpg" class="gallery_img" loading="lazy">
+            </figure>
+
+            <figure class="gallery_picture">
+                <img src="../img/comprimidas/foto_1-min.jpg" class="gallery_img" loading="lazy">
+            </figure>
+
+
+            <figure class="gallery_picture">
+                <img src="../img/comprimidas/MG_9821-min.jpg" class="gallery_img" loading="lazy">
+            </figure>
+
+            <figure class="gallery_picture">
+                <img src="../img/comprimidas/MG_9821-min.jpg" class="gallery_img" loading="lazy">
+            </figure>
+
+            <figure class="gallery_picture">
+                <img src="../img/comprimidas/MG_9821-min.jpg" class="gallery_img" loading="lazy">
+            </figure>
+
+
+            <figure class="gallery_picture">
+                <img src="../img/comprimidas/teo1-min.jpg" class="gallery_img" loading="lazy">
+            </figure>
+
+            <figure class="gallery_picture">
+                <img src="../img/comprimidas/laura_2-min.jpg" class="gallery_img" loading="lazy">
+            </figure>
+
+            <figure class="gallery_picture">
+                <img src="../img/comprimidas/gomzalo3-min.jpg" class="gallery_img" loading="lazy">
+            </figure>
+
+
+            <figure class="gallery_picture">
+                <img src="../img/comprimidas/33-min.jpg" class="gallery_img" loading="lazy">
+            </figure>
+
+            <figure class="gallery_picture">
+                <img src="../img/comprimidas/laura_2-min.jpg" class="gallery_img" loading="lazy">
+            </figure>
+
+            <figure class="gallery_picture">
+                <img src="../img/comprimidas/teo1-min.jpg" class="gallery_img" loading="lazy">
+            </figure>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <p>Me puedes encontrar en: </p>
+            <div class="enlaces-footer">
+                <a href="#"><img src="../iconos/gmail-icon.svg" alt="Icono gmail." /></a>
+                <a href="#"><img src="../iconos/ig-icon.png" alt="Icono instagram" /></a>
+                <a href="#"><img src="..//iconos/tiktok-icon.png" alt="Icono tiktok" /></a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
